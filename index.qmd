@@ -1,11 +1,29 @@
 ---
-title: "niu-cob-omis681"
+title: "OM&IS Department"
+format:
+  dashboard: 
+    logo: "images/niu_cob_logo.png"
+    orientation: columns
 ---
 
-This is a Quarto website.
+```{r setup, include=FALSE}
+# Load necessary libraries
+library(readr)
+library(knitr)
+```
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 
 ```{r}
-1 + 1
+# Read the processed data
+cleaned_data <- readRDS("cleaned_data.rds")
 ```
+
+
+
+
+## Column {width="50%"}
+OMIS-482: Top Student Performers
+```{r}
+kable(cleaned_data, caption = "Top 5 Performing Students in OMIS-482: Class of 2024")
+```
+## Row {height="50%"}
