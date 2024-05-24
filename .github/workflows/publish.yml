@@ -2,7 +2,6 @@ on:
   workflow_dispatch:
   push:
     branches: main
- ##Add a Scheduler here, if needed.
 name: Quarto Publish
 
 jobs:
