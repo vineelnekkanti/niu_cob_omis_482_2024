@@ -3,12 +3,13 @@ project:
 
 website:
   title: "OM&IS Department"
+  favicon: images/niu_cob_logo.png
+  page-navigation: true
+  site-url: https://vineelnekkanti.github.io/niu_cob_omis_482_2024/
+  repo-url: https://github.com/vineelnekkanti/niu_cob_omis_482_2024
+  repo-actions: [edit, source, issue]
   sidebar:
     contents:
-      - href: index.qmd
-        text: Home
-      - href: about.qmd
-        text: About
       - href: dashboard.qmd
         text: Dashboard
 
